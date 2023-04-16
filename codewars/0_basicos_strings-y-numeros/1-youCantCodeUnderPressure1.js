@@ -2,9 +2,9 @@
 const doubleInteger = (i) => i * 2;
 
 //Second approach
-const doubleInteger = (i) => i.toFixed(0) * 2;
+const doubleInteger2 = (i) => i.toFixed(0) * 2;
 
 //Third approach
-function doubleInteger(i) {
+function doubleInteger3(i) {
   return i*2;
 }

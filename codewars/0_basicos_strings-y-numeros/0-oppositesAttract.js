@@ -2,14 +2,14 @@
 const lovefunc = (flower1, flower2) => flower1 % 2 !== flower2 % 2;
 
 //Second approach
-const lovefunc = ( flower1, flower2 ) => ( flower1 % 2 !== flower2 % 2) ? true: false;
+const lovefunc2 = ( flower1, flower2 ) => ( flower1 % 2 !== flower2 % 2) ? true: false;
 
 //Third approach
-const lovefunc = ( flower1, flower2 ) => ( flower1 % 2 === 0 && flower2 % 2 !== 0 || flower1 % 2 !== 0 && flower2 % 2 === 0 ) ? true : false;
+const lovefunc3 = ( flower1, flower2 ) => ( flower1 % 2 === 0 && flower2 % 2 !== 0 || flower1 % 2 !== 0 && flower2 % 2 === 0 ) ? true : false;
 
 
 //Fourth approach
-function lovefunc(flower1, flower2){
+function lovefunc4(flower1, flower2){
   const isFlower1even = flower1 % 2 !== 0;
   const isFlower2Odd = flower2 % 2 === 0;
   
